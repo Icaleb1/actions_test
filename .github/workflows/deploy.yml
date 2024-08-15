@@ -25,7 +25,7 @@ jobs:
       run: npm install -g @angular/cli
  
     - name: Run unit tests
-      run: ng teste --watch=false --browsers=ChromeHeadless
+      run: ng test --watch=false --browsers=ChromeHeadless
  
     - name: Build the app
       run: ng build --prod --base-href "https://Icaleb1.github.io/actions_test/"
